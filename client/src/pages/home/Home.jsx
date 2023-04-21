@@ -1,10 +1,10 @@
-import Featured from "../../compnents/featured/Featured"
-import FeaturedProperty from "../../compnents/featuredProperty/FeaturedProperty"
-import Footer from "../../compnents/footer/Footer"
-import Header from "../../compnents/header/Header"
-import MailList from "../../compnents/mailList/MailList"
-import Navbar from "../../compnents/navbar/Navbar"
-import PropertyList from "../../compnents/propertyList/PropertyList"
+import Featured from "../../components/featured/Featured"
+import FeaturedProperty from "../../components/featuredProperty/FeaturedProperty"
+import Footer from "../../components/footer/Footer"
+import Header from "../../components/header/Header"
+import MailList from "../../components/mailList/MailList"
+import Navbar from "../../components/navbar/Navbar"
+import PropertyList from "../../components/propertyList/PropertyList"
 import "./home.css"
 
 const Home = () => {
@@ -21,8 +21,6 @@ const Home = () => {
          <MailList/>
          <Footer/> 
       </div>
-      {/* <MailList/>
-      <Footer/>  */}
     </div>
   )
 }
